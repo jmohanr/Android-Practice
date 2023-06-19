@@ -61,19 +61,19 @@
         println(reverse)
     }
 
-    fun findAddandEvenNumbers(input: List<Int>) {
-        var addNum = 0
+    fun findOddandEvenNumbers(input: List<Int>) {
+        var oddNum = 0
         var evenNum = 0
 
         for (i in input){
             if ((i%2) == 0) {
                 evenNum += 1
             } else {
-                addNum += 1
+                oddNum += 1
             }
         }
 
-        println("$evenNum Even Numbers \n and $addNum Odd Numbers")
+        println("$evenNum Even Numbers \n and $oddNum Odd Numbers")
     }
 
     fun findMaxValue(input: List<Int>) {
