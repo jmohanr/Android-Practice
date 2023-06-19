@@ -19,7 +19,7 @@ fun Tasks() {
     task.swapTwoValues()
     task.findValues("Hello World 12 contains $")
     task.reverseString("Hello World")
-    task.findAddandEvenNumbers(listOf(5,7,2,4,9,10))
+    task.findOddandEvenNumbers(listOf(5,7,2,4,9,10))
     task.findMaxValue(listOf(5,17,-2,14,2,10))
 }
 
