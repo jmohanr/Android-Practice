@@ -1,6 +1,6 @@
 # Android-Practice
 #Day 1 Practice on Constraints
-![alt text](https://github.com/jmohanr/Android-Practice/blob/main/Day4/demo.png)
+![alt text](https://github.com/jmohanr/Android-Practice/blob/main/Day4/demo.gif)
 
 **#Basic Interview and logical functions **
 
