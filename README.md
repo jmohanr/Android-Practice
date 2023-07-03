@@ -3,8 +3,39 @@
 ![alt text](https://github.com/jmohanr/Android-Practice/blob/main/Day4/demo.gif)
 
 **#Basic Interview and logical functions **
+//In Kotlin When is similar to switch case in Swift
 
-
+fun main() {
+    var day = 2
+    var marks = 10
+    
+    
+    when(day) {
+        1 -> {
+             println("Value * 12 is -> ${day * 1}")
+        } 
+        2 -> {
+             println("Value * 2 is -> ${day * 2}")
+        }
+        else -> {
+            println("Value * $day is -> ${day * 2}")
+        }
+    }
+    //For Range
+    when (marks) {
+        in 40..55 -> {
+            print("Below Average")
+        }
+        in 56..65 -> {
+            print("Average")
+        }
+        in 65..100 -> {
+            print("First Class")
+        } else -> {
+            print("Fail")
+        }
+    }
+}
 
     fun divideValues(x:Double,y:Double) : Double {
         println("The Final Value is ${x/y} and divident Value ${x%y}")
